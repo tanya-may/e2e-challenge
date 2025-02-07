@@ -1,0 +1,4 @@
+{
+  "cucumber.features": ["apps/my-calculator-workspace-e2e/src/**/*.feature"],
+  "cucumber.glue": ["apps/my-calculator-workspace-e2e/src/steps/**/*.ts"]
+}
