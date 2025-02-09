@@ -11,7 +11,7 @@ Feature: Calculator
     Examples:
       | input1 | input2 | result |
       |      5 |      3 |      8 |
-      |     12 |    100 |    112 |
+      |    -12 |    100 |     88 |
       |    999 |      0 |    999 |
 
   Scenario Outline: Subtraction

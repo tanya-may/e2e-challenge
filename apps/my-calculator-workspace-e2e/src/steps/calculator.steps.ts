@@ -38,6 +38,10 @@ When('I press clear', async function (this: CalculatorWorld) {
   await calculator.pressClear();
 });
 
+When('I press plus minus', async function (this: CalculatorWorld) {
+  await calculator.pressAdd();
+});
+
 Then(
   'the result should be {float}',
   async function (this: CalculatorWorld, result: number) {
